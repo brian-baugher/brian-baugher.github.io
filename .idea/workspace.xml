@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="583956b8-a9c7-47d8-8e43-7c0ca7d53e0f" name="Changes" comment="hot fix email address typo">
+    <list default="true" id="583956b8-a9c7-47d8-8e43-7c0ca7d53e0f" name="Changes" comment="BitCamp project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -78,7 +78,7 @@
       <workItem from="1682302261928" duration="3166000" />
       <workItem from="1682644912089" duration="727000" />
       <workItem from="1682696916851" duration="34000" />
-      <workItem from="1682739205871" duration="1966000" />
+      <workItem from="1682739205871" duration="2969000" />
     </task>
     <task id="LOCAL-00001" summary="added template">
       <created>1680668951132</created>
@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682645005532</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="BitCamp project">
+      <created>1682743436301</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682743436301</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +184,7 @@
     <MESSAGE value="education" />
     <MESSAGE value="interests/projects" />
     <MESSAGE value="hot fix email address typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="hot fix email address typo" />
+    <MESSAGE value="BitCamp project" />
+    <option name="LAST_COMMIT_MESSAGE" value="BitCamp project" />
   </component>
 </project>
