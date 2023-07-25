@@ -10,10 +10,10 @@ export default function Navbar(){
                 <p className={style.logo}>Brian Baugher</p>
             </div>
             <div className={style.right}>
-                <InfoIcon strokeWidth={1} size={30}/>
-                <BriefcaseIcon strokeWidth={1} size={30}/>
-                <GraduationCapIcon strokeWidth={1} size={30}/>
-                <GitMergeIcon strokeWidth={1} size={30}/>
+                <InfoIcon strokeWidth={1.5} size={25}/>
+                <BriefcaseIcon strokeWidth={1.5} size={25}/>
+                <GraduationCapIcon strokeWidth={1.5} size={25}/>
+                <GitMergeIcon strokeWidth={1.5} size={25}/>
             </div>
         </div>
     )
