@@ -4,14 +4,28 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     overflow: hidden;
     background: var(--primary-dark);
+    color: var(--text-dark);
 }
 
 .top{
     display: flex;
     flex: 1;
+    font-size: x-large;
+}
+
+.column{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos{
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
 }
 
 .bottom{
@@ -27,13 +41,24 @@
 
 .right{
     flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.skills{
+.right div{
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+div.skills{
     flex: .5;
+    background: var(--blue);
+    border-radius: 20px;
+    width: 90vw;
 }
 
 .top , .bottom , .left , .right{
-    border: solid pink;
     width: 100%;
 }
