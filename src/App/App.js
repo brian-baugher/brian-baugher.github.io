@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import style from './App.module.css';
 import '../colors.css'
 import Welcome from '../Welcome/Welcome';
+import About from '../About/About';
 
 function App() {
   //navbar - good enough
@@ -20,6 +21,7 @@ function App() {
     <div className={style.App}>
       <Navbar welcomeScreen={welcomeScreen}/>
       <div ref={welcomeScreen}><Welcome /></div>
+      <div><About /></div>
       <header className={style.App_header}>
         <img className={style.App_logo} alt="logo" />
         <p>
