@@ -49,3 +49,11 @@
     justify-content: center;
     text-align: center;
 }
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.right *{
+    cursor: pointer;
+}
