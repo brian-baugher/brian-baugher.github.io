@@ -1,0 +1,39 @@
+.Welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url('../resources/uva_lawn_under_stars.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y: 100%;
+    overflow: hidden;
+}
+
+.image{
+    height: 100%;
+    min-width: 1080px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.text{
+    position: absolute;
+    margin: auto auto;
+    width: 50%;
+}
+
+.text{
+    font-size: 5vmin;
+    text-align: left;
+    color: var(--text-dark);
+    font-weight: bolder;
+    background: var(--blue-transparent);
+    border-radius: 10%;
+    padding: 3%;
+}
+
+strong{
+    color: var(--orange);
+}

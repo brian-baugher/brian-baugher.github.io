@@ -3,5 +3,6 @@
     --secondary-dark: #737373;
     --text-dark: white;
     --blue: #11244F;
+    --blue-transparent: rgb(17, 36, 79, .5);
     --orange: #F3992B;
 }

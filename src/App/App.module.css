@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@100&display=swap');
+
 .App {
   text-align: center;
+  overflow-x: hidden;
+  font-family: 'Ysabeau Office';
 }
 
 .App_logo {

@@ -1,9 +1,10 @@
 import Navbar from '../Navbar/Navbar';
 import style from './App.module.css';
 import '../colors.css'
+import Welcome from '../Welcome/Welcome';
 
 function App() {
-  //navbar
+  //navbar - good enough
   //welcome screen (pretty)
   //about
   //experience
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className={style.App}>
       <Navbar/>
+      <Welcome/>
       <header className={style.App_header}>
         <img className={style.App_logo} alt="logo" />
         <p>
