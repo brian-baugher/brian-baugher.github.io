@@ -3,7 +3,7 @@ import logo from '../resources/bdb_adobe_express.svg'
 import { InfoIcon, BriefcaseIcon, GraduationCapIcon, GitMergeIcon } from 'lucide-react'
 import { scrollTo } from '../utils'
 
-export default function Navbar({welcomeScreen}){
+export default function Navbar({welcomeScreen, aboutMe}){
     return(
         <div className={style.navbar}>
             <div className={style.left}>
@@ -11,7 +11,7 @@ export default function Navbar({welcomeScreen}){
                 <p className={style.logo} onClick={() => scrollTo(welcomeScreen)}>Brian Baugher</p>
             </div>
             <div className={style.right}>
-                <InfoIcon strokeWidth={1.5} size={25}/>
+                <InfoIcon onClick={() => scrollTo(aboutMe)} strokeWidth={1.5} size={25}/>
                 <BriefcaseIcon strokeWidth={1.5} size={25}/>
                 <GraduationCapIcon strokeWidth={1.5} size={25}/>
                 <GitMergeIcon strokeWidth={1.5} size={25}/>

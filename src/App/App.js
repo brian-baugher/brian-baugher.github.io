@@ -15,13 +15,14 @@ function App() {
   //projects
     //little card guys
 
-  const welcomeScreen = useRef()
+  const welcomeScreen = useRef();
+  const aboutMe = useRef();
     
   return (
     <div className={style.App}>
-      <Navbar welcomeScreen={welcomeScreen}/>
+      <Navbar welcomeScreen={welcomeScreen} aboutMe={aboutMe}/>
       <div ref={welcomeScreen}><Welcome /></div>
-      <div><About /></div>
+      <div ref={aboutMe}><About /></div>
       <header className={style.App_header}>
         <img className={style.App_logo} alt="logo" />
         <p>
