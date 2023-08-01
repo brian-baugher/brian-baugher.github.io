@@ -1,7 +1,20 @@
+import { useRef } from 'react'
 import style from './About.module.css'
 import { LinkedinIcon, GithubIcon } from 'lucide-react'
+import { useObserver } from '../hooks';
 
 export default function About(){
+    const skills1 = useRef();
+    const skills2 = useRef();
+    const skills3 = useRef();
+    const skills4 = useRef();
+    const skills5 = useRef();
+    const skills6 = useRef();
+    const skills7 = useRef();
+    const skills8 = useRef();
+
+    useObserver('show', [skills1, skills2, skills3, skills4, skills5, skills6, skills7, skills8])
+
     return(
         <div className={style.About}>
             <div className={style.top}>
@@ -28,14 +41,14 @@ export default function About(){
             </div>
             <div className={`${style.bottom} ${style.skills}`}>
                 <p>Skills:</p>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" />
+                <img className={`${style.skill} hidden`} ref={skills1} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                <img className={`${style.skill} hidden`} ref={skills2} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <img className={`${style.skill} hidden`} ref={skills3} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                <img className={`${style.skill} hidden`} ref={skills4} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                <img className={`${style.skill} hidden`} ref={skills5} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                <img className={`${style.skill} hidden`} ref={skills6} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <img className={`${style.skill} hidden`} ref={skills7} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
+                <img className={`${style.skill} hidden`} ref={skills8} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" />
 
             </div>
         </div>
