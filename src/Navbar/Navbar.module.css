@@ -34,7 +34,7 @@
     align-items: center;
 }
 
-.logo{
+.logo, .resume{
     height: 5vh;
     /*margin-top: -.75vh;*/
     font-family: 'Ysabeau Office';
@@ -56,4 +56,9 @@
 
 .right *{
     cursor: pointer;
+}
+
+.resume{
+    color: var(--text-dark);
+    text-decoration: none;
 }
