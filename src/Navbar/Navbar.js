@@ -4,7 +4,7 @@ import { InfoIcon, BriefcaseIcon, GraduationCapIcon, GitMergeIcon } from 'lucide
 import { scrollTo } from '../utils'
 import resume from '../resources/resume_07_12_23.pdf'
 
-export default function Navbar({welcomeScreen, aboutMe}){
+export default function Navbar({welcomeScreen, aboutMe, projects}){
     return(
         <div className={style.navbar}>
             <div className={style.left}>
@@ -14,9 +14,7 @@ export default function Navbar({welcomeScreen, aboutMe}){
             <div className={style.right}>
                 <a className={style.resume} href={resume} download="BrianBaugherResume.pdf"><strong>Resume</strong></a>
                 <InfoIcon onClick={() => scrollTo(aboutMe)} strokeWidth={1.5} size={25}/>
-                <BriefcaseIcon strokeWidth={1.5} size={25}/>
-                <GraduationCapIcon strokeWidth={1.5} size={25}/>
-                <GitMergeIcon strokeWidth={1.5} size={25}/>
+                <GitMergeIcon onClick={() => scrollTo(projects)} strokeWidth={1.5} size={25}/>
             </div>
         </div>
     )
