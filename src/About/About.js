@@ -13,22 +13,27 @@ export default function About(){
     const skills7 = useRef();
     const skills8 = useRef();
 
+    const about = useRef();
+    const contact = useRef();
+    const social = useRef();
+
     useObserver('show', [skills1, skills2, skills3, skills4, skills5, skills6, skills7, skills8])
+    useObserver('show-basic', [about, contact, social])
 
     return(
         <div className={style.About}>
             <div className={style.top}>
                 <div className={style.left}>
-                    <div className={`${style.top} ${style.column}`}>
+                    <div ref={contact} className={`${style.top} ${style.column} hidden-basic`}>
                         <p><strong>Email:</strong> bdb7hq@virginia.edu</p>
                         <p><strong>Phone:</strong> (540)-940-9807</p>
                     </div>
-                    <div className={`${style.bottom} ${style.logos}`}>
+                    <div ref={social} className={`${style.bottom} ${style.logos} hidden-basic`}>
                         <LinkedinIcon strokeWidth={1.5} size={60}/>
                         <GithubIcon strokeWidth={1.5} size={60}/>
                     </div>
                 </div>
-                <div className={style.right}>
+                <div ref={about} className={`${style.right} hidden-basic`}>
                     <div><strong>About Me</strong></div>
                     <p> I am a third-year student at UVA studying Computer Science. Currently excited about web development, cloud technologies, and artificial intelligence.
                         <br/> <br/>
