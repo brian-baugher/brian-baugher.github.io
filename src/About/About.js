@@ -18,12 +18,13 @@ export default function About(){
                 <div className={style.right}>
                     <div><strong>About Me</strong></div>
                     <p> I am a third-year student at UVA studying Computer Science. Currently excited about web development, cloud technologies, and artificial intelligence.
-                        <br/>
+                        <br/> <br/>
                         Open to work opportunies, particularly for Summer 2024.
                         <br/>
                         <br/>
                         When I'm not at a computer I enjoy being outdoors. Recently I've been grilling lots.
-                        I think some good food can solve just about any problem, well, maybe not seg faults.</p>                </div>
+                        I think some good food can solve just about any problem, well, maybe not seg faults.</p>               
+                </div>
             </div>
             <div className={`${style.bottom} ${style.skills}`}>
                 <p>Skills:</p>

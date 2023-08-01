@@ -43,3 +43,7 @@
     flex: 1;
     transition-delay: 200ms !important;
 }
+
+.title{
+    font-size: 4vmin;
+}

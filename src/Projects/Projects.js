@@ -32,7 +32,7 @@ export default function Projects(){
     
     return(
         <div className={style.projects}>
-            <strong>Projects</strong>
+            <strong className={style.title}>Projects</strong>
             <div className={style.panels}>
                 <div className={style.top}>
                     <div className={`hidden`} ref={panel1}><Panel priority={'first'} image={mathesis}/></div>
