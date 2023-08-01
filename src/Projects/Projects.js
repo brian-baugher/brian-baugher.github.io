@@ -4,31 +4,16 @@ import mathesis from './32021370.PNG';
 import hackation from './3202180.PNG';
 import portfolio from './bdb08.PNG'
 import { useRef } from 'react';
-import { useEffect } from 'react';
 import '../animate.css'
+import { useObserver } from '../hooks';
 
 export default function Projects(){
     const panel1 = useRef()
     const panel2 = useRef()
     const panel3 = useRef()
 
-    useEffect(()=>{
-        const observer = new IntersectionObserver((entries)=>{
-        entries.forEach((e)=>{
-            if (e.isIntersecting) {
-                console.log('show')
-                console.log(e.target)
-                e.target.classList.add('show');
-            }
-            else {
-                e.target.classList.remove('show');
-            }
-        })
-    });
-
     const panels = [panel1, panel2, panel3];
-    panels.forEach((e) => observer.observe(e.current));
-    })
+    useObserver('show', panels)
     
     return(
         <div className={style.projects}>
