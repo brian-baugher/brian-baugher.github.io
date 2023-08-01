@@ -8,4 +8,22 @@
     overflow: hidden;
     background: var(--black);
     color: var(--text-dark);
+    gap: 5vh;
+}
+
+.bottom{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    box-sizing: border-box;
+}
+
+.panels{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
 }
