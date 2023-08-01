@@ -4,6 +4,20 @@
     background-position-y: 0%;
     border-radius: 10px;
     height: 40vh;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.60);
 }
 
 .first{
@@ -21,4 +35,12 @@
 
 strong{
     font-size: xx-large;
+}
+
+.panel *{
+    position: relative;
+    background-color: var(--blue-transparent);
+    width: fit-content;
+    border-radius: 10px;
+    text-align: center;
 }
