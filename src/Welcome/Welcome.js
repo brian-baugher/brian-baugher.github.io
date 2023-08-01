@@ -6,7 +6,7 @@ export default function Welcome(){
         <div className={style.Welcome}>
             {/*<img src={image} className={style.image}/>*/}
             <div className={style.text}>
-                <p>Hey, I'm <strong>Brian</strong></p>
+                <p>Hey, I'm <strong style={{fontWeight:'bolder', fontSize:'5vmin'}}>Brian</strong></p>
                 <p>Student, Developer, Forever Curious</p>
             </div>
         </div>

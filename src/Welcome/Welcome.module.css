@@ -31,7 +31,7 @@
     color: var(--text-dark);
     font-weight: bolder;
     background: var(--blue-transparent);
-    border-radius: 10%;
+    border-radius: 50px;
     padding: 3%;
 }
 
