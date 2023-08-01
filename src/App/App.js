@@ -4,6 +4,7 @@ import style from './App.module.css';
 import '../colors.css'
 import Welcome from '../Welcome/Welcome';
 import About from '../About/About';
+import Projects from '../Projects/Projects';
 
 function App() {
   //navbar - good enough
@@ -17,12 +18,14 @@ function App() {
 
   const welcomeScreen = useRef();
   const aboutMe = useRef();
+  const projects = useRef();
     
   return (
     <div className={style.App}>
       <Navbar welcomeScreen={welcomeScreen} aboutMe={aboutMe}/>
       <div ref={welcomeScreen}><Welcome /></div>
       <div ref={aboutMe}><About /></div>
+      <div ref={projects}><Projects /></div>
       <header className={style.App_header}>
         <img className={style.App_logo} alt="logo" />
         <p>
