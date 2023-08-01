@@ -29,8 +29,8 @@ export default function About(){
                         <p><strong>Phone:</strong> (540)-940-9807</p>
                     </div>
                     <div ref={social} className={`${style.bottom} ${style.logos} hidden-basic`}>
-                        <LinkedinIcon strokeWidth={1.5} size={60}/>
-                        <GithubIcon strokeWidth={1.5} size={60}/>
+                        <a style={{textDecoration: 'none', color: 'white'}} href='https://www.linkedin.com/in/brian-baugher/' target='_blank'><LinkedinIcon strokeWidth={1.5} size={60}/></a>
+                        <a style={{textDecoration: 'none', color: 'white'}} href='https://github.com/brian-baugher' target='_blank'><GithubIcon strokeWidth={1.5} size={60}/></a>
                     </div>
                 </div>
                 <div ref={about} className={`${style.right} hidden-basic`}>
