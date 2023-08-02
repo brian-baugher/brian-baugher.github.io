@@ -77,3 +77,8 @@
 .column_container *{
     margin: 0%;
 }
+
+a strong{
+    font-size: 3cqmin;
+    background-color: transparent !important;
+}

@@ -14,6 +14,14 @@ let xTensivDescription = "Full featured React web app built to help math learner
 let xTensivTechStack = "React | react-router | recoil | cytoscape.js | firebase hosting/auth";
 let xTensivLinks = ['https://www.xTensiv.io/', '']
 
+let bitCampTitle = 'Django Hackathon web app'
+let bitcampDescription = "Full stack web application to aid users in studying built in under 36 hours with team of 3."+
+"Features include: a serverless, distrubuted DB for data security/persistance and a friends system with live feed updates." +
+"This was my first project in web dev, I had to learn Django from the ground up while building this."
+let bitcampTechStack = "Bootstrap HTML | Django | CockroachDB | Auth0"
+let bitcampLinks = ["https://devpost.com/software/hoosterrapin" ,"https://github.com/brian-baugher/BitCamp2023"]
+
+
 export default function Projects(){
     const panel1 = useRef()
     const panel2 = useRef()
@@ -33,7 +41,8 @@ export default function Projects(){
                 </div>
                 <div className={style.bottom}>
                     <div className={`${style.wrapper1} hidden`} ref={panel2}>
-                        <Panel priority={'second'} image={hackation} links={[2,2]}/></div>
+                        <Panel priority={'second'} image={hackation} links={bitcampLinks}
+                        title={bitCampTitle} description={bitcampDescription} tech_stack={bitcampTechStack}/></div>
                     <div className={`${style.wrapper2} hidden`} ref={panel3}>
                         <Panel priority={'third'} image={portfolio} links={[2,2]}/></div>
                 </div>
