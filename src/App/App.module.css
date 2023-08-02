@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@100&display=swap');
+
+.App {
+  text-align: center;
+  overflow-x: hidden;
+  font-family: 'Ysabeau Office';
+}
+
+.App_logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App_logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App_header {
+  background-color: var(--primary-dark);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--text-dark);
+}
+
+.App_link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
