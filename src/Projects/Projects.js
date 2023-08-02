@@ -7,20 +7,26 @@ import { useRef } from 'react';
 import '../animate.css'
 import { useObserver } from '../hooks';
 
-let xTensivTitle = 'xTensiv.io (a Mathesis project)'
-let xTensivDescription = "Full featured React web app built to help math learners navigate and study a large libary of mathematics represented in a vast directed graph. "+
+const xTensivTitle = 'xTensiv.io (a Mathesis project)'
+const xTensivDescription = "Full featured React web app built to help math learners navigate and study a large libary of mathematics represented in a vast directed graph. "+
 "Built as a MVP to pilot the application before seeking investors, deployed to over 100 students in select math classes at UVA. "+
 "Features tools to help teachers create content including: markdown/katex math support, auto-save functionality, and graph data upload/download."
-let xTensivTechStack = "React | react-router | recoil | cytoscape.js | firebase hosting/auth";
-let xTensivLinks = ['https://www.xTensiv.io/', '']
+const xTensivTechStack = "React | react-router | recoil | cytoscape.js | firebase hosting/auth";
+const xTensivLinks = ['https://www.xTensiv.io/', '']
 
-let bitCampTitle = 'Django Hackathon web app'
-let bitcampDescription = "Full stack web application to aid users in studying built in under 36 hours with team of 3."+
+const bitCampTitle = 'Django Hackathon web app'
+const bitcampDescription = "Full stack web application to aid users in studying built in under 36 hours with team of 3."+
 "Features include: a serverless, distrubuted DB for data security/persistance and a friends system with live feed updates." +
 "This was my first project in web dev, I had to learn Django from the ground up while building this."
-let bitcampTechStack = "Bootstrap HTML | Django | CockroachDB | Auth0"
-let bitcampLinks = ["https://devpost.com/software/hoosterrapin" ,"https://github.com/brian-baugher/BitCamp2023"]
+const bitcampTechStack = "Bootstrap HTML | Django | CockroachDB | Auth0"
+const bitcampLinks = ["https://devpost.com/software/hoosterrapin" ,"https://github.com/brian-baugher/BitCamp2023"]
 
+
+const portfolioTitle = 'This Portfolio!'
+const portfolioDescription = 'Portfolio built to practice my React development. xTensiv was my first time using React'+
+' so this was a good chance to practice what I learned and try new things outside of work.'
+const  portfolioTechStack = 'React | CSS | Github Actions/Pages'
+const portfolioLinks = ['', 'https://github.com/brian-baugher/brian-baugher']
 
 export default function Projects(){
     const panel1 = useRef()
@@ -44,7 +50,8 @@ export default function Projects(){
                         <Panel priority={'second'} image={hackation} links={bitcampLinks}
                         title={bitCampTitle} description={bitcampDescription} tech_stack={bitcampTechStack}/></div>
                     <div className={`${style.wrapper2} hidden`} ref={panel3}>
-                        <Panel priority={'third'} image={portfolio} links={[2,2]}/></div>
+                        <Panel priority={'third'} image={portfolio} links={portfolioLinks}
+                        title={portfolioTitle} description={portfolioDescription} tech_stack={portfolioTechStack}/></div>
                 </div>
             </div>
         </div>
