@@ -11,7 +11,17 @@ export default function Panel({ priority, image, title, description, links }){
 
     return (
         <div className={getClass()} style={{ backgroundImage: `url(${image})` }}>
-            <h1>Hello</h1>
+            <div className={style.column_container}>
+                <h1>Title</h1>
+                <p>Ut tempor est nulla adipisicing occaecat ipsum nostrud exercitation nulla proident consectetur dolore quis irure.</p>
+                <p>tech stack</p>
+            </div>
+            <div className={`${style.column_container} ${style.link_container}`}>
+                <div className={style.links}>
+                    <a>demo</a>
+                    <a>code</a>
+                </div>
+            </div>
         </div>
     )
 }

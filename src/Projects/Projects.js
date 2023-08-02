@@ -2,7 +2,7 @@ import Panel from './Panel/Panel'
 import style from './Projects.module.css'
 import mathesis from './32021370.PNG';
 import hackation from './3202180.PNG';
-import portfolio from './bdb08.PNG'
+import portfolio from './3202180_2.PNG';
 import { useRef } from 'react';
 import '../animate.css'
 import { useObserver } from '../hooks';
