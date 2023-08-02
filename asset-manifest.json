@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.157c0a47.css",
+    "main.js": "/static/js/main.3a726fd7.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/3202180_2.PNG": "/static/media/3202180_2.72861879ac2d87c1d660.PNG",
+    "static/media/3202180.PNG": "/static/media/3202180.2b3ed3b0770ab92c0423.PNG",
+    "static/media/uva_lawn_under_stars.jpg": "/static/media/uva_lawn_under_stars.850e1e6dcc8f28125439.jpg",
+    "static/media/32021370.PNG": "/static/media/32021370.7f0c2f25a18f831a8a41.PNG",
+    "static/media/resume_07_12_23.pdf": "/static/media/resume_07_12_23.c36580634075613f0bf3.pdf",
+    "static/media/bdb_adobe_express.svg": "/static/media/bdb_adobe_express.bd20eb6fe0a89e8fc43fcd423e05b790.svg",
+    "index.html": "/index.html",
+    "main.157c0a47.css.map": "/static/css/main.157c0a47.css.map",
+    "main.3a726fd7.js.map": "/static/js/main.3a726fd7.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.157c0a47.css",
+    "static/js/main.3a726fd7.js"
+  ]
+}
