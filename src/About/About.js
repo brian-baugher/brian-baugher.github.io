@@ -35,9 +35,9 @@ export default function About(){
                 </div>
                 <div ref={about} className={`${style.right} hidden-basic`}>
                     <div><strong>About Me</strong></div>
-                    <p> I am a third-year student at UVA studying Computer Science. Currently excited about web development, cloud technologies, and artificial intelligence.
+                    <p> I am a fourth-year student at UVA studying Computer Science. Currently excited about web development, cloud technologies, and artificial intelligence.
                         <br/> <br/>
-                        Open to work opportunies, particularly for Summer 2024.
+                        Open to work opportunies, starting after graduation in May 2025.
                         <br/>
                         <br/>
                         When I'm not at a computer I enjoy being outdoors. Recently I've been grilling lots.
