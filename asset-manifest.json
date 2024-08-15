@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.ba83c88a.css",
-    "main.js": "/static/js/main.13953998.js",
+    "main.js": "/static/js/main.bebe8c62.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/3202180_2.PNG": "/static/media/3202180_2.72861879ac2d87c1d660.PNG",
     "static/media/3202180.PNG": "/static/media/3202180.2b3ed3b0770ab92c0423.PNG",
     "static/media/uva_lawn_under_stars.jpg": "/static/media/uva_lawn_under_stars.850e1e6dcc8f28125439.jpg",
     "static/media/jsg.jpg": "/static/media/jsg.ac9a1c4188ba0073548a.jpg",
     "static/media/32021370.PNG": "/static/media/32021370.7f0c2f25a18f831a8a41.PNG",
-    "static/media/resume.pdf": "/static/media/resume.559f93e1062d97a629f6.pdf",
+    "static/media/resume.pdf": "/static/media/resume.ea1e3ca1779d20c493ad.pdf",
     "static/media/bdb_adobe_express.svg": "/static/media/bdb_adobe_express.610b0141a5678fc64dfd0bb67d57bca4.svg",
     "index.html": "/index.html",
     "main.ba83c88a.css.map": "/static/css/main.ba83c88a.css.map",
-    "main.13953998.js.map": "/static/js/main.13953998.js.map",
+    "main.bebe8c62.js.map": "/static/js/main.bebe8c62.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba83c88a.css",
-    "static/js/main.13953998.js"
+    "static/js/main.bebe8c62.js"
   ]
 }
